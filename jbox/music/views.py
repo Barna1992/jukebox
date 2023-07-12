@@ -9,6 +9,8 @@ from .serializers import *
 def songs_list(request):
     if request.method == 'GET':
         data = Song.objects.all()
+        if 'music_genres' in request.GET:
+            data = data.filter(music_type = request.GET.get('music_genres'))
 
         serializer = SongSerializer(data, context={'request': request}, many=True)
 

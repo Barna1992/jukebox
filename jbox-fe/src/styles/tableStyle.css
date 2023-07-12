@@ -1,0 +1,31 @@
+/* tableStyle.css */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .song-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+  
+  .song-table th,
+  .song-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .song-table th {
+    background-color: #5bc0de;
+    color: white;
+  }
+  
+  .song-table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
