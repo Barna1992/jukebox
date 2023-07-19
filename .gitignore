@@ -1,1 +1,4 @@
 env
+*pyc
+jbox/music/__pycache__/
+jbox/db.sqlite3

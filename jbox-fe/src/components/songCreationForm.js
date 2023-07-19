@@ -37,7 +37,7 @@ const FormComponent = () => {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ title, author, gender: selectedGender })
+      body: JSON.stringify({ title, author, music_type: selectedGender })
     })
       .then(data => {
         // Handle success response here

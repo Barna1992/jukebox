@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Footer from './components/footer';
 
 const router = createBrowserRouter([
   {
@@ -28,9 +29,12 @@ const router = createBrowserRouter([
 function App() {
   return (
   ReactDOM.createRoot(document.getElementById("root")).render(
+    <div>
     <React.StrictMode>
       <RouterProvider router={router} />
     </React.StrictMode>
+    <Footer />
+    </div>
     )); 
 }
 

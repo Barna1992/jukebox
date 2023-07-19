@@ -24,7 +24,7 @@ class Song(models.Model):
     title = models.CharField(max_length=1024)
     author = models.CharField(max_length=1024)
     dedications = models.ManyToManyField(Dedication)
-    music_type = models.CharField(max_length=300, choices = CHOICES, default=CHOICES[1][1], blank=True, null=True)
+    music_type = models.CharField(max_length=300, choices = CHOICES, default=CHOICES[1][0], blank=True, null=True)
 
     def __str__(self) -> str:
         return f"{self.title} - {self.author}"
