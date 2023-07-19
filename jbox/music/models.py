@@ -15,10 +15,13 @@ class Dedication(models.Model):
 class Song(models.Model):
     CHOICES = (
         ('RO', 'Rock'),
+        ('HR', 'Hard Rock'),
+        ('HM', 'Heavy Metal'),
         ('PO', 'Pop'),
         ('DA', 'Dance'),
         ('PU', 'Punk'),
         ('GR', 'Grunge'),
+        ('FO', 'Folk'),
         ('IT', 'Italiani'),
     )
     title = models.CharField(max_length=1024)
