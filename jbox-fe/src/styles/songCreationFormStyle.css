@@ -44,7 +44,11 @@
   }
   
   .form-container button:hover {
-    background-color: #45a049;
+    background-color: #06b6ea;
+  }
+
+  .form-container button {
+    background-color: #5bc0de;
   }
   
   .error-message {

@@ -2,7 +2,8 @@
 .table-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
   }
   
   .song-table {
@@ -67,4 +68,26 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.dedica-div {
+  padding: 1rem 0.5rem;
+  border: 1px solid #06b6ea;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.span-dedica {
+  padding: 0.5rem;
+}
+
+.span-author {
+  background-color: #5bc0de;
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0.75rem;
 }

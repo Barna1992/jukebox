@@ -5,7 +5,7 @@ class SongSerializer(serializers.ModelSerializer):
     dedications = serializers.SerializerMethodField()
 
     def get_dedications(self, instance):
-        return [d.name for d in instance.dedications.all()]
+        return [{'description': d.description, 'author': d.nickname} for d in instance.dedications.all()]
 
     class Meta:
         model = Song
