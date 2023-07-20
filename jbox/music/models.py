@@ -25,7 +25,7 @@ class Song(models.Model):
         ('IT', 'Italiani'),
     )
     title = models.CharField(max_length=1024)
-    author = models.CharField(max_length=1024)
+    author = models.CharField(max_length=1024, null=True, blank=True)
     dedications = models.ManyToManyField(Dedication)
     music_type = models.CharField(max_length=300, choices = CHOICES, default=CHOICES[1][0], blank=True, null=True)
 
