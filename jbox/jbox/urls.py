@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,re_path
 from music import views
+from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +25,5 @@ urlpatterns = [
     re_path(r'^api/music_genres/$', views.music_genres),
     re_path(r'^api/song/([0-9])$', views.song_detail),
     re_path(r'^api/dedications/$', views.dedications_list),
+    path("", TemplateView.as_view(template_name="index.html"))
 ]
