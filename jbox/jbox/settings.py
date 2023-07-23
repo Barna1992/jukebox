@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            FRONTEND_DIR / 'public'
+            FRONTEND_DIR / 'build'
         ],
         'APP_DIRS': True,
         'OPTIONS': {

@@ -25,5 +25,7 @@ urlpatterns = [
     re_path(r'^api/music_genres/$', views.music_genres),
     re_path(r'^api/song/([0-9])$', views.song_detail),
     re_path(r'^api/dedications/$', views.dedications_list),
-    path("", TemplateView.as_view(template_name="index.html"))
+    path("", TemplateView.as_view(template_name="index.html")),
+    path("add_songs", TemplateView.as_view(template_name="index.html")),
+    path("deejay", TemplateView.as_view(template_name="index.html"))
 ]
