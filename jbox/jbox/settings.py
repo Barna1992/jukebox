@@ -121,10 +121,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     FRONTEND_DIR / "build/static",
 ]
-STATIC_URL = FRONTEND_DIR / "build/static",
 
 
 # Default primary key field type
