@@ -1,3 +1,3 @@
-export const SONGS_API_URL = `${window.location.host}api/songs/`;
-export const DEDICATIONS_API_URL = `${window.location.host}api/dedications/`;
-export const GENRES_API_URL = `${window.location.host}api/music_genres/`;
+export const SONGS_API_URL = `/api/songs/`;
+export const DEDICATIONS_API_URL = `/api/dedications/`;
+export const GENRES_API_URL = `/api/music_genres/`;
