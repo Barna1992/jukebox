@@ -124,7 +124,7 @@ USE_TZ = True
 STATICFILES_DIRS = [
     FRONTEND_DIR / "build/static",
 ]
-STATIC_URL = STATICFILES_DIRS
+STATIC_URL = FRONTEND_DIR / "build/static",
 
 
 # Default primary key field type
