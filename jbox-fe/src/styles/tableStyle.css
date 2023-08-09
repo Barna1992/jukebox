@@ -22,7 +22,7 @@
   }
   
   .song-table th {
-    background-color: #5bc0de;
+    background-color: #FBC11D;
     color: white;
   }
   
@@ -54,7 +54,7 @@
 .dedica-submit {
   width: 100%;
   padding: 10px;
-  background-color: #5bc0de;
+  background-color: #fbc11d;
   color: white;
   border: none;
   border-radius: 4px;
@@ -63,7 +63,7 @@
 
 .dedica-button {
   padding: 8px 12px;
-  background-color: #5bc0de;
+  background-color: #FBC11D;
   color: white;
   border: none;
   border-radius: 4px;
@@ -72,7 +72,7 @@
 
 .dedica-div {
   padding: 1rem 0.5rem;
-  border: 1px solid #06b6ea;
+  border: 1px solid #57769b;
   border-radius: 20px;
   margin-top: 0.5rem;
   display: flex;
@@ -85,7 +85,7 @@
 }
 
 .span-author {
-  background-color: #5bc0de;
+  background-color: #FBC11D;
   color: white;
   font-weight: 500;
   border-radius: 20px;

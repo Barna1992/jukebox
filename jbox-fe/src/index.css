@@ -10,6 +10,8 @@ body {
   font-family: "Bodoni";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FCFBE0;
+  color:#BC3B76;
 }
 
 code {
