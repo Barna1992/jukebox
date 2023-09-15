@@ -19,15 +19,7 @@ const Footer = () => {
 
   return (
     <footer className="app-footer">
-      <div className="footer-icons">
-        <FaPlus className="footer-icon" onClick={handlePlusClick}/>
-      </div>
-      <div className="footer-icons">
-        <TiThLargeOutline className="footer-icon" onClick={handleMusicListClick}/>
-      </div>
-      <div className="footer-icons">
-        <FaMusic className="footer-icon" onClick={handleMusicClick}/>
-      </div>
+
     </footer>
   );
 };

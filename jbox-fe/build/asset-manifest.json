@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.eac80c00.css",
-    "main.js": "/static/js/main.c9496c06.js",
+    "main.js": "/static/js/main.b318c3c4.js",
     "static/js/787.d874dc3f.chunk.js": "/static/js/787.d874dc3f.chunk.js",
     "static/media/BodoniMT.ttf": "/static/media/BodoniMT.b3cac3bd9074d142649d.ttf",
     "index.html": "/index.html",
     "main.eac80c00.css.map": "/static/css/main.eac80c00.css.map",
-    "main.c9496c06.js.map": "/static/js/main.c9496c06.js.map",
+    "main.b318c3c4.js.map": "/static/js/main.b318c3c4.js.map",
     "787.d874dc3f.chunk.js.map": "/static/js/787.d874dc3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eac80c00.css",
-    "static/js/main.c9496c06.js"
+    "static/js/main.b318c3c4.js"
   ]
 }
